@@ -1,0 +1,39 @@
+.menu3 {
+  overflow: hidden; /* Limpiar el flujo para contener el float */
+  padding: 20;
+}
+
+.grupo-img {
+  width: 50%; /* Ancho de la imagen */
+  height: 80%;
+  float: left; /* Alinear la imagen a la izquierda */
+  margin-right: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.texto {
+  overflow: hidden; /* Limpiar el flujo para contener el float */
+  color: black;
+  text-align: justify;
+  font-size: 20px; /* Tamaño de fuente más grande */
+}
+
+.menu3 li {
+  flex: 10;
+  margin-right: 10px; /* Espacio entre elementos */
+  list-style-type: none; /* Quita los puntos de la lista */
+}
+
+.menu3 h1 {
+  margin-bottom: 10px; /* Espacio entre título y párrafo */
+  color: crimson;
+  text-align: center;
+  font-weight: bold; /* Hace el texto más grueso */
+  font-size: 32px; /* Tamaño de fuente más grande */
+}
+
+.menu3 p {
+  margin: 0; /* Eliminar margen por defecto */
+  color: black;
+  text-align: justify;
+  font-size: 21px; /* Tamaño de fuente más grande */
+}

@@ -1,0 +1,64 @@
+.navbar {
+  position: fixed; /* Hacer que la barra de navegación sea fija */
+  top: 0; /* Fijarla en la parte superior */
+  left: 0; /* Fijarla en el borde izquierdo */
+  width: 100%; /* Ocupar todo el ancho disponible */
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+  background-color: rgb(255, 255, 255);
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+}
+
+.logo-container {
+  margin-inline: auto; /* Mueve el logo hacia la izquierda */
+}
+
+.logo {
+  width: 320px;
+  height: 85px;
+}
+
+.menu {
+  list-style: none;
+  padding: 5;
+  margin: 5;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 20px; /* Espacio entre elementos de menú */
+}
+
+.menu li a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 10px; /* Bordes ovalados */
+  color: black; /* Color del texto */
+  font-weight: bold; /* Hace que el texto esté en negrita */
+  font-size: 25px; /* Tamaño de fuente más grande */
+  transition: background-color 0.2s; /* Transición para el cambio de color al pasar el cursor */
+}
+
+.menu li a:hover {
+  background-color: #db140de8; /* Color de fondo al pasar el cursor */
+  color: antiquewhite;
+}
+
+.submenu {
+  display: none; /* Oculta el submenu por defecto */
+  position: absolute; /* Posiciona el submenu de forma absoluta */
+  background-color: #c8dd0bb4; /* Color de fondo del submenu */
+  list-style-type: none; /* Elimina los estilos de la lista */
+  padding: 0; /* Elimina el relleno de la lista */
+  border-radius: 10px; /* Borde ovalado del submenú */
+}
+
+.menu li:hover .submenu {
+  display: block; /* Muestra el submenu cuando se pasa el cursor sobre el elemento de menú */
+}
+.submenu li {
+  display: block; /* Muestra los elementos del submenu en bloque */
+  margin-left: 0; /* Elimina el margen izquierdo de los elementos del submenu */
+}

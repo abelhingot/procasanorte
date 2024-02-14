@@ -1,0 +1,39 @@
+.containervista {
+  background-color: rgb(243, 222, 28);
+  justify-content: center;
+
+}
+
+.menu4 {
+  list-style: none;
+  display: inline-block;
+  flex-direction: column; /* Ajusta la dirección de la lista a vertical */
+  justify-content: center; /* Ajusta el espacio alrededor de los elementos */
+
+}
+
+.menu4 li {
+  display: inline-block;
+  margin: 60px; /* Espacio entre elementos de menú */
+  vertical-align: middle; /* Alineamos verticalmente los títulos */
+}
+
+.menu4 h1 {
+  margin-bottom: 10px; /* Espacio entre el título y los párrafos */
+  display: inline-block; /* Mantiene los títulos en la misma línea */
+  font-size: 30px; /* Tamaño de fuente más grande */
+  text-align: center;
+}
+
+.menu4 p {
+  margin: 0; /* Elimina el margen para un mejor alineamiento */
+  color: black;
+  font-size: 20px; /* Tamaño de fuente más grande */
+}
+
+.redes-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin: 5px; /* Espacio entre los iconos */
+}

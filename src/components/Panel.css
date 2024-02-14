@@ -1,0 +1,33 @@
+.image-menu2{
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 8px; /* Espacio entre el título y las imágenes */
+  transition: transform 0.3s ease; /* Transición suave para el efecto de movimiento */
+}
+
+h1:hover {
+  transform: translateY(-5px); /* Mueve el título hacia arriba al pasar el cursor sobre él */
+}
+
+.image-container {
+  display: flex; /* Muestra los elementos en línea */
+  justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+.image-info {
+  margin: 40px; /* Espacio entre las imágenes */
+  text-align: center; /* Centra el contenido horizontalmente */
+  flex-direction: column; /* Coloca los elementos en columna */
+}
+
+img{
+  width: 600; /* Ancho deseado de las imágenes */
+  height: 350; /* Mantener la proporción de la imagen */
+}
+
+h2 {
+  margin-top: 5px; /* Espacio entre el título y la imagen */
+  color: darkred;
+}
